@@ -26,8 +26,32 @@ the ability to support. Such as 2FA Authenticators, Mobile Banking, E-Wallets, U
 
 Minimal Phone keeps a list of allowed app.
 
+Initially you set a select few of allowed apps before activating lock down, this list is kept
+flexible at first because the unknown numbers of apps the user might legitimately use in their
+daily life.
+
+After the phone is locked down, no further changes are applied as easily.
+
 Minimal Phone enforces delay before any configuration changes are applied to the settings. This
 eliminates many impulse-based changes the user may try to do. But there are genuine practical 
-needs that users sometimes have that they need quickly.
+needs that users may sometimes have that they need to be done quickly.
 
- - It allows quick changes to settings with  
+So to accomodate those quick just-in-time needs, Minimal Phone allows your friend to approve
+your changes to be in effect immediately. Furthermore, Minimal Phone offers an experimental
+LLM-as-a-Judge feature that can cover worst case scenario like inaccessible friend contact.
+
+## Browser Restriction
+
+Browsers have always been a tricky space that need to be tackled smartly. Removing browsers
+altogether risks making a considerable amount of apps unusable. Because they may require browser
+based login mechanism.
+
+There are a few control mechanism that can be used:
+
+ - Restriction through DNS
+ - Restriction through Forced Install Extension (only available on Microsoft Edge)
+
+Experiments need to be done to prove which method is the best.
+
+DNS-based restriction may not work well in environments which require the user to use a WiFi's
+assigned DNS in order to access certain services. This happen to me personally on college.
