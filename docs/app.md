@@ -55,3 +55,36 @@ Experiments need to be done to prove which method is the best.
 
 DNS-based restriction may not work well in environments which require the user to use a WiFi's
 assigned DNS in order to access certain services. This happen to me personally on college.
+
+## Modes of Activation
+
+Minimal Phone has two modes:
+
+ - Enforcing (All frictions active, all lists enforced)
+ - Permissive 
+ - Disabled
+
+## Teardown Mechanism
+
+When the Enforcing mode is activated, your list of allowed apps, and websites are enforced.
+This mode can't be easily deactivated, it must go through the friction mechanism first.
+
+## Friction mechanism
+
+ - Friction by delay
+ - Friction by external approval
+
+Friction by external approval includes two possible party:
+
+ - Another person (your friend, family, strangers)
+ - AI agent
+
+## AI-agent based External Approval for Application List Request
+
+This method trades friction-robustness by convenience, meaning you don't have to call your friend to approve your changes in time of need, but you give in to the possibility that the AI may incorrectly classify your request.
+
+## AI-agent based External Approval for Browsing Request
+
+This method is much more needed than the App List Request variant because the vastness of the internet, in the future this may become the default.
+
+The friction are applied by an AI agent sitting in a Browser extension, stopping any response before it is parsed by the browser and examining it from any suspicious content. If such are detected, the domain will be blacklisted and no further examination may be redo except by explicit request.
