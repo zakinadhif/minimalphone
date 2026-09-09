@@ -10,6 +10,16 @@ Minimal Phone limits the apps that can be installed on your phone. It also delet
 
 Because each country usually has its own ecosystem of apps (e.g. different banks, e-wallets, universities), the list of allowed apps is governed by the community. For edge cases, you may enable the experimental LLM-as-a-judge feature (coming soon) (more important for the novel limited web browser feature).
 
+# Flow
+
+The app starts by opening the Device Policy Manager (DPM) provisioning screen. 
+
+On Android, there are only two ways to provision a DPM: through a factory reset or through an ADB command.
+
+Traditionally, commands to ADB could only be issued from a connected computer. With the advent of wireless debugging, however, this is no longer the case. Minimal Phone uses Shizuku, which leverages wireless debugging to issue the required provisioning commands without the need for a separate computer.
+
+But Android refuses to set an app as a DPM when there are accounts connected in your phone. So you need to log out of all accounts before you're able to perform this. Be careful of locking yourself out, remember the passwords and make sure you have a way to perform the 2FA, if you have them.
+
 # Deliberate Friction
 
 ## Delay-based Friction
