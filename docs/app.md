@@ -1,6 +1,6 @@
 # Minimal Phone
 
-This app strips your phone of its addictive and unproductive aspects. It distills the device down into essential functions that is important to everyday life. Such as internet banking, e-wallets, 2FA authenticators, mandatory university apps, etc. 
+This app strips your phone of its addictive and unproductive aspects. It distills the device down into essential functions that is important to everyday life. Such as internet banking, e-wallets, 2FA authenticators, mandatory university apps, transportation apps, etc. 
 
 This app exists because of how toxic smartphones can sometimes be to our well-being. Yet, dumbphones can be expensive and downright too restrictive which makes it impractical for everyday use.
 
