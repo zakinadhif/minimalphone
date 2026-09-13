@@ -12,6 +12,8 @@ Because each country usually has its own ecosystem of apps (e.g. different banks
 
 # Flow
 
+## Provisioning Required Privileges
+
 The app starts by opening the Device Policy Manager (DPM) provisioning screen. 
 
 On Android, there are only two ways to provision a DPM: through a factory reset or through an ADB command.
@@ -20,13 +22,13 @@ Traditionally, commands to ADB could only be issued from a connected computer. W
 
 But Android refuses to set an app as a DPM when there are accounts connected in your phone. So you need to log out of all accounts before you're able to perform this. Be careful of locking yourself out, remember the passwords and make sure you have a way to perform the 2FA, if you have them.
 
-# Deliberate Friction
+## Configuring Allow List
 
-## Delay-based Friction
+After you have successfully provisioned the required privileges. You may set the list of allowed apps on your phone.
 
-## External Approval
+Minimal Phone will try to provide a sensible list of default allowed apps that you can change later.
 
-## AI-based Approval
+If you're set, press the apply button. Any changes to the allow list later require a delay until it's applied.
 
 > *This app serves as a blank slate for future Productive-Social Phone concept I have in mind, but let's leave that for later.*
 > *This app aims to avoid being to rigid and hard to configure like Plucky, so it's more easily usable.*
