@@ -30,5 +30,9 @@ Minimal Phone will try to provide a sensible list of default allowed apps that y
 
 If you're set, press the apply button. Any changes to the allow list later require a delay until it's applied.
 
+## Uninstalling Minimal Phone
+
+If you wish to uninstall Minimal Phone after it has been activated, you need to wait for 2 hours.
+
 > *This app serves as a blank slate for future Productive-Social Phone concept I have in mind, but let's leave that for later.*
 > *This app aims to avoid being to rigid and hard to configure like Plucky, so it's more easily usable.*
